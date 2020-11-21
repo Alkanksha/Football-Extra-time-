@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Football</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body class="background" style="background-image: url('images/football.jpg');background-repeat:no-repeat;background-attachment: fixed;background-size:cover;">
+    <div class="container">
+        <p class="title"><b>FOOTBALL(Extra time)</b></p>
+        <div class="row">
+            <div class="column">
+                <img class="image1" src="images/Arsenal.png" alt="Arsenal">
+                <p class="name" id="team1name">Team1</p>
+                <div class="row rows" id="team1goals">
+                    <div>-</div>
+                    <div>-</div>
+                    <div>-</div>
+                    <div>-</div>
+                    <div>-</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="row score">
+                    <div id="team1score">0</div>
+                    <div>-</div>
+                    <div id="team2score">0</div>
+                </div>
+            </div>
+            <div class="column">
+                <img class="image2" src="images/Manchester.png" alt="Manchester" style="width:200px;">
+                <p class="name" id="team2name">Team2</p>
+                <div class="row rows" id="team2goals">
+                    <div>-</div>
+                    <div>-</div>
+                    <div>-</div>
+                    <div>-</div>
+                    <div>-</div>
+                </div>
+            </div>
+        </div>
+        <button id="strikebutton" type="submit" onclick="strike()">STRIKE</button>
+        <div id="result">
+            
+        </div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>
